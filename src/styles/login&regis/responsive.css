@@ -1,0 +1,43 @@
+@media only screen and (max-width: 800px) { 
+  .form-box{
+    max-height: 500px;
+  }
+  #taskIcon{
+    max-width: 25%;
+  }
+  .form-box h1{
+    font-size: 2em;
+  }
+  .form-box #title{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .input-field{
+    max-height: 40px;
+  }
+  .input-group{
+    height: 10em;
+    margin-bottom: 1em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #taskIcon{
+    max-width: 30%;
+  }
+  .form-box h1{
+    font-size: 1.5rem;
+  }
+  .form-box #title{
+    font-size: 1em;
+  }
+  .signBtn{
+    height: 25px;
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
+  .signContainer p, a{
+    font-size: 0.7rem;
+    margin-top: .8em;
+  }
+}
